@@ -1,1 +1,291 @@
-[]
+[
+  {
+    "cik": "1652044",
+    "company": "Alphabet",
+    "accession": "0001652044-26-000066",
+    "release_date": "2026-07-22",
+    "period_end": "2026-06-30",
+    "period_label": "quarter ended 30 June 2026",
+    "figures": {
+      "revenue": {
+        "value": 119796,
+        "unit": "USD millions",
+        "quote": "Revenues | $ | 96,428 | $ | 119,796"
+      },
+      "operating_income": {
+        "value": 40770,
+        "unit": "USD millions",
+        "quote": "Income from operations | 31,271 | 40,770"
+      },
+      "net_income": {
+        "value": 112193,
+        "unit": "USD millions",
+        "quote": "Net income | 28,196 | 112,193"
+      },
+      "diluted_eps": {
+        "value": 9.11,
+        "unit": "USD per share",
+        "quote": "Diluted net income per common share | $ | 2.31 | $ | 9.11"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Management says revenue grew 24% and Google Cloud growth accelerated to 82%.",
+        "quote": "Q2 was an amazing quarter, with Alphabet revenues growing 24% year-over-year and Google Cloud revenues accelerating to 82% growth, driven by demand for AI infrastructure and AI solutions."
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "Operating income rose 30% and the operating margin widened to 34%.",
+        "quote": "Consolidated Alphabet operating income increased 30% and operating margin expanded by 2 percentage points to 34%."
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "Net income available to common stockholders rose 298%, with other income a net gain of $98.0 billion.",
+        "quote": "Other income reflected a net gain of $98.0 billion, primarily the result of net unrealized gains on our equity securities."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the quarter amazing and describes the results as outstanding, with momentum across the board."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1652044-0001652044-26-000066.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/0001652044-26-000066-index.htm",
+    "saved_at": "2026-10-25T22:05:00+08:00"
+  },
+  {
+    "cik": "1018724",
+    "company": "Amazon",
+    "accession": "0001018724-26-000024",
+    "release_date": "2026-07-30",
+    "period_end": "2026-06-30",
+    "period_label": "quarter ended 30 June 2026",
+    "figures": {
+      "revenue": {
+        "value": 200606,
+        "unit": "USD millions",
+        "quote": "Total net sales | 167,702 | 200,606"
+      },
+      "operating_income": {
+        "value": 27461,
+        "unit": "USD millions",
+        "quote": "Operating income | 19,171 | 27,461"
+      },
+      "net_income": {
+        "value": 62647,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 18,164 | $ | 62,647"
+      },
+      "diluted_eps": {
+        "value": 5.75,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share | $ | 1.68 | $ | 5.75"
+      }
+    },
+    "guidance": {
+      "text": "For the third quarter of 2026, Amazon expects net sales of $197.0 billion to $202.0 billion, growth of 9% to 12%.",
+      "quote": "Net sales are expected to be between $197.0 billion and $202.0 billion, or to grow between 9% and 12% compared with third quarter 2025."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says AWS grew 36.7%, its fastest growth in 18 quarters.",
+        "quote": "AWS is booming, growing 36.7% year-over-year in Q2—our fastest growth in 18 quarters—and our AI and Chips businesses each eclipsed run rates of more than $25 billion,"
+      },
+      {
+        "id": "M2",
+        "topic": "profit",
+        "claim": "Operating income increased to $27.5 billion from $19.2 billion a year earlier.",
+        "quote": "Operating income increased to $27.5 billion in the second quarter, compared with $19.2 billion in second quarter 2025."
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "Net income includes a large non-operating gain, mainly from investments in Anthropic.",
+        "quote": "Second quarter 2026 net income includes non-operating pre-tax other income of $53.4 billion, primarily from our investments in Anthropic."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO says AWS is booming and that there is a lot to be excited about, with no headwind mentioned in the quotes."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1018724-0001018724-26-000024.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260630xex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/0001018724-26-000024-index.htm",
+    "saved_at": "2026-10-25T22:05:00+08:00"
+  },
+  {
+    "cik": "1326801",
+    "company": "Meta Platforms",
+    "accession": "0001628280-26-066700",
+    "release_date": "2026-10-21",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 64601,
+        "unit": "USD millions",
+        "quote": "Revenue | $ | 64,601 | $ | 51,242"
+      },
+      "operating_income": {
+        "value": 12988,
+        "unit": "USD millions",
+        "quote": "Income from operations | $ | 12,988 | $ | 20,535"
+      },
+      "net_income": {
+        "value": 9860,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 9,860 | $ | 2,709"
+      },
+      "diluted_eps": {
+        "value": 3.83,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share (EPS) | $ | 3.83 | $ | 1.05"
+      }
+    },
+    "guidance": {
+      "text": "Meta expects fourth quarter 2026 total revenue of $73-76 billion.",
+      "quote": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "other",
+        "claim": "The CEO says investments are paying off and the core business is strong.",
+        "quote": "Our investments are paying off, the core business is strong, and we're seeing velocity across the board."
+      },
+      {
+        "id": "M2",
+        "topic": "costs",
+        "claim": "Total costs and expenses rose 68%, including the litigation charge.",
+        "quote": "Total costs and expenses were $51.61 billion, an increase of 68% year-over-year. This includes the litigation charge as discussed above."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "Management expects fourth quarter 2026 revenue of $73-76 billion.",
+        "quote": "We expect fourth quarter 2026 total revenue to be in the range of $73-76 billion."
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO is upbeat, but the release also reports a $9.89 billion legal charge and mentions youth-related trials ahead."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1326801-0001628280-26-066700.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-09302026xexhibit991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/0001628280-26-066700-index.htm",
+    "saved_at": "2026-10-25T22:05:00+08:00"
+  },
+  {
+    "cik": "760498",
+    "company": "BANCFIRST CORP /OK/",
+    "accession": "0001193125-26-427999",
+    "release_date": "2026-10-22",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": 67.254,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 67,254 | $ | 66,687"
+      },
+      "diluted_eps": {
+        "value": 1.97,
+        "unit": "USD per share",
+        "quote": "Net income-diluted | 1.97 | 1.96"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO calls the quarter's earnings strong, citing asset growth and a sustained margin.",
+        "quote": "Earnings for the quarter were strong, driven by growth in earning assets, a sustained margin, year-over-year growth in non-interest income combined with expenses in line with plan."
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO expects higher interest rates to dampen future economic activity.",
+        "quote": "we expect higher interest rates and a higher-for-longer rate outlook to have a dampening effect on future economic activity."
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO calls earnings strong and credit quality stable, but expects higher rates to dampen economic activity."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/760498-0001193125-26-427999.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526427999/banf-ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/760498/000119312526427999/0001193125-26-427999-index.htm",
+    "saved_at": "2026-10-25T22:05:00+08:00"
+  },
+  {
+    "cik": "1035983",
+    "company": "COMFORT SYSTEMS USA INC",
+    "accession": "0001104659-26-118156",
+    "release_date": "2026-10-22",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 3766.302,
+        "unit": "USD millions",
+        "quote": "Revenue | $ | 3,766,302"
+      },
+      "operating_income": {
+        "value": 624.57,
+        "unit": "USD millions",
+        "quote": "Operating income | 624,570"
+      },
+      "net_income": {
+        "value": 489.044,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 489,044"
+      },
+      "diluted_eps": {
+        "value": 13.91,
+        "unit": "USD per share",
+        "quote": "Diluted | $ | 13.91"
+      }
+    },
+    "guidance": {
+      "text": "Management believes the company is well positioned to grow organically through year end and in 2027; no figures are given.",
+      "quote": "we believe that through year end and for 2027 we are well-positioned to grow organically, and to maintain high levels of profitability and solid ongoing cash flow."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO reports a 50% rise in revenue and a 70% rise in earnings per share.",
+        "quote": "Comfort Systems USA is reporting a 50% increase in revenue and a 70% jump in per share earnings."
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO expects organic growth and high profitability through year end and 2027.",
+        "quote": "we believe that through year end and for 2027 we are well-positioned to grow organically, and to maintain high levels of profitability and solid ongoing cash flow."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO describes extraordinary results across every metric and relentless demand."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1035983-0001104659-26-118156.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-ex99d1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/0001104659-26-118156-index.htm",
+    "saved_at": "2026-10-25T22:05:00+08:00"
+  }
+]
