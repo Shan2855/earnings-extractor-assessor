@@ -1,74 +1,116 @@
 {
-  "fetched_at": "2026-10-26T07:32:34+08:00",
+  "fetched_at": "2026-10-27T08:23:33+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
     "start": "2026-10-25",
-    "end": "2026-10-25",
+    "end": "2026-10-26",
     "first_run": false,
     "note": null
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 8,
-  "answered": 8,
+  "requests": 14,
+  "answered": 14,
   "sources": [
     {
       "name": "Earnings radar, page 1",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-25&enddt=2026-10-25",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-25&enddt=2026-10-26",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 96 ms"
+      "detail": "HTTP 200, 43 KB in 490 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 73 ms"
+      "detail": "HTTP 200, 148 KB in 41 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 18 ms"
+      "detail": "HTTP 200, 156 KB in 20 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 154 KB in 24 ms"
+      "detail": "HTTP 200, 155 KB in 20 ms"
+    },
+    {
+      "name": "Bank of Marin Bancorp filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000043/index.json",
+      "ok": true,
+      "detail": "HTTP 200, 5 KB in 71 ms"
+    },
+    {
+      "name": "Bank of Marin Bancorp press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000043/earningsrelease-ex991q32026.htm",
+      "ok": true,
+      "detail": "HTTP 200, 727 KB in 44 ms"
+    },
+    {
+      "name": "VERIZON COMMUNICATIONS INC filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/index.json",
+      "ok": true,
+      "detail": "HTTP 200, 1 KB in 23 ms"
+    },
+    {
+      "name": "VERIZON COMMUNICATIONS INC press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/a2026q3exhibit99.htm",
+      "ok": true,
+      "detail": "HTTP 200, 871 KB in 81 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,090 KB in 33 ms"
+      "detail": "HTTP 200, 3,090 KB in 42 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,373 KB in 31 ms"
+      "detail": "HTTP 200, 4,373 KB in 25 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,735 KB in 53 ms"
+      "detail": "HTTP 200, 2,736 KB in 38 ms"
+    },
+    {
+      "name": "Bank of Marin Bancorp company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403475.json",
+      "ok": true,
+      "detail": "HTTP 200, 4,851 KB in 75 ms"
+    },
+    {
+      "name": "VERIZON COMMUNICATIONS INC company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json",
+      "ok": true,
+      "detail": "HTTP 200, 4,248 KB in 88 ms"
     },
     {
       "name": "BANCFIRST CORP /OK/ company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000760498.json",
       "ok": true,
-      "detail": "HTTP 200, 4,438 KB in 347 ms"
+      "detail": "HTTP 200, 4,438 KB in 449 ms"
     }
   ],
   "files": [
+    "data.sec.gov_api_xbrl_companyfacts_CIK0000732712.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0000760498.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001403475.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
-    "efts.sec.gov_search-index_from0.json"
+    "efts.sec.gov_search-index_from0.json",
+    "www.sec.gov_Archives_edgar_data_1403475_000140347526000043_earningsrelease-ex991q32026.htm",
+    "www.sec.gov_Archives_edgar_data_1403475_000140347526000043_index.json",
+    "www.sec.gov_Archives_edgar_data_732712_000073271226000049_a2026q3exhibit99.htm",
+    "www.sec.gov_Archives_edgar_data_732712_000073271226000049_index.json"
   ]
 }
