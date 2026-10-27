@@ -287,5 +287,120 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-ex99d1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/0001104659-26-118156-index.htm",
     "saved_at": "2026-10-25T22:05:00+08:00"
+  },
+  {
+    "cik": "1403475",
+    "company": "Bank of Marin Bancorp",
+    "accession": "0001403475-26-000043",
+    "release_date": "2026-10-26",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": null,
+      "operating_income": null,
+      "net_income": {
+        "value": 9.934,
+        "unit": "USD millions",
+        "quote": "Net income (GAAP) | $ | 9,934"
+      },
+      "diluted_eps": {
+        "value": 0.62,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share (GAAP) | $ | 0.62"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "The CEO says pre-tax pre-provision net income rose 17% on the previous quarter, helped by deposit costs, fee income and expenses.",
+        "quote": "Active management of deposit costs, growth in fee income, and expense discipline drove a 17% increase in pre-tax pre-provision net income on a sequential quarter basis"
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "The CFO expects modest net interest margin expansion over time.",
+        "quote": "Continued legacy loan repricing along with new loan originations at higher rates should support modest net interest margin expansion over time."
+      },
+      {
+        "id": "M3",
+        "topic": "revenue",
+        "claim": "The company reports net interest margin of 3.48%, up 10 basis points on the previous quarter.",
+        "quote": "The third quarter tax-equivalent net interest margin improved 10 basis points over the preceding quarter to 3.48% from 3.38%"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO and CFO point to higher earnings, margin expansion and fee growth, and expect modest further margin expansion."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/1403475-0001403475-26-000043.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000043/earningsrelease-ex991q32026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000043/0001403475-26-000043-index.htm",
+    "saved_at": "2026-10-27T13:38:31+08:00"
+  },
+  {
+    "cik": "732712",
+    "company": "VERIZON COMMUNICATIONS INC",
+    "accession": "0000732712-26-000049",
+    "release_date": "2026-10-26",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 34313,
+        "unit": "USD millions",
+        "quote": "Total Operating Revenues | 34,313"
+      },
+      "operating_income": {
+        "value": 8650,
+        "unit": "USD millions",
+        "quote": "Operating Income | 8,650"
+      },
+      "net_income": {
+        "value": 5198,
+        "unit": "USD millions",
+        "quote": "Net income attributable to Verizon | 5,198"
+      },
+      "diluted_eps": {
+        "value": 1.25,
+        "unit": "USD per share",
+        "quote": "Net income attributable to Verizon | $ | 1.25"
+      }
+    },
+    "guidance": {
+      "text": "Verizon raises full-year 2026 guidance, including postpaid phone net additions of 1.1 million to 1.2 million.",
+      "quote": "Postpaid phone net additions: 1.1 million to 1.2 million, up from upper half of 750,000 to 1.0 million"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "margins",
+        "claim": "The CEO says the company is winning high-value customers while expanding margins and reducing churn.",
+        "quote": "we are winning loyal, high-value customers while expanding margins, reducing churn, and generating strong sustained cash flow"
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Total operating revenue rose 1.5% year-over-year; service revenue growth was offset by lower equipment revenue.",
+        "quote": "Total operating revenue was $34.3 billion, up 1.5 percent year-over-year."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "The company expects mobility and broadband service revenue to grow about 4.0% in the fourth quarter of 2026.",
+        "quote": "Mobility and broadband service revenue: upper half of annual guidance of 2.5 to 3.0 percent growth, with approximately 4.0 percent growth in fourth-quarter 2026."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls it a record-breaking quarter, and the company raised full-year guidance for the third time."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/732712-0000732712-26-000049.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/a2026q3exhibit99.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/0000732712-26-000049-index.htm",
+    "saved_at": "2026-10-27T13:38:31+08:00"
   }
 ]
