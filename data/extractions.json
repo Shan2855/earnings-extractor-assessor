@@ -402,5 +402,127 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/a2026q3exhibit99.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/0000732712-26-000049-index.htm",
     "saved_at": "2026-10-27T13:38:31+08:00"
+  },
+  {
+    "cik": "91388",
+    "company": "SMITHFIELD FOODS INC",
+    "accession": "0000091388-26-000070",
+    "release_date": "2026-10-27",
+    "period_end": "2026-09-27",
+    "period_label": "quarter ended 27 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 3437,
+        "unit": "USD millions",
+        "quote": "Sales | $ | 3,437 | $ | 3,747"
+      },
+      "operating_income": {
+        "value": 127,
+        "unit": "USD millions",
+        "quote": "Operating profit | 127 | 310"
+      },
+      "net_income": {
+        "value": 89,
+        "unit": "USD millions",
+        "quote": "Net income attributable to Smithfield | $ | 89 | $ | 248"
+      },
+      "diluted_eps": {
+        "value": 0.23,
+        "unit": "USD per share",
+        "quote": "Diluted | 0.23 | 0.63"
+      }
+    },
+    "guidance": {
+      "text": "For fiscal 2026, the company expects total company sales to be down low-single-digits compared with fiscal 2025.",
+      "quote": "Total Company sales to be down low-single-digits compared to fiscal year 2025"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "Packaged Meats is on track for a fifth consecutive year above $1 billion in operating profit, while upstream segments faced lower pork prices.",
+        "quote": "Packaged Meats remains on track to deliver its fifth consecutive year above $1 billion in operating profit in fiscal 2026."
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "Management expects commodity market pressure in upstream businesses to continue in the fourth quarter.",
+        "quote": "we expect commodity market pressure in our upstream businesses to continue in the fourth quarter"
+      },
+      {
+        "id": "M3",
+        "topic": "margins",
+        "claim": "The Packaged Meats operating profit margin rose against the third quarter of fiscal 2025.",
+        "quote": "Packaged Meats operating profit margin of 11.6%, compared to 10.8% in the third quarter of fiscal 2025"
+      }
+    ],
+    "tone": {
+      "label": "balanced",
+      "reason": "The CEO praises Packaged Meats but says upstream segments are challenged and expects commodity pressure to continue."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/91388-0000091388-26-000070.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/91388/000009138826000070/q32026pressrelease.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/91388/000009138826000070/0000091388-26-000070-index.htm",
+    "saved_at": "2026-10-27T23:21:21+08:00"
+  },
+  {
+    "cik": "75362",
+    "company": "PACCAR INC",
+    "accession": "0001193125-26-432729",
+    "release_date": "2026-10-27",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 7940,
+        "unit": "USD millions",
+        "quote": "Third quarter revenues were $7.94 billion, compared to $6.67 billion reported in the third quarter of 2025."
+      },
+      "operating_income": null,
+      "net_income": {
+        "value": 847.5,
+        "unit": "USD millions",
+        "quote": "Net Income | $ | 847.5 | $ | 590.0"
+      },
+      "diluted_eps": {
+        "value": 1.61,
+        "unit": "USD per share",
+        "quote": "Diluted | $ | 1.61 | $ | 1.12"
+      }
+    },
+    "guidance": {
+      "text": "Management estimates US and Canada Class 8 truck industry retail sales of 240,000-260,000 vehicles in 2026.",
+      "quote": "U.S. and Canada Class 8 truck industry retail sales in 2026 are estimated to be in a range of 240,000–260,000 vehicles."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "The CEO says revenues rose 19% and net income rose 44% against the same period last year.",
+        "quote": "Revenues increased by 19% and net income increased by 44% compared to same period last year"
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "The CEO attributes the profit increase to higher truck segment margins and strong overall performance.",
+        "quote": "The increase in quarterly profits resulted from higher truck segment margins and strong overall business performance."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "Management expects good truck demand to continue next year.",
+        "quote": "We are experiencing a good year of truck demand in 2026 and we anticipate this to continue next year"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls the results excellent and management expects truck demand to continue next year."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/75362-0001193125-26-432729.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/pcar-ex99_1.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/0001193125-26-432729-index.htm",
+    "saved_at": "2026-10-27T23:21:21+08:00"
   }
 ]
