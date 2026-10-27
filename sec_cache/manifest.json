@@ -1,103 +1,129 @@
 {
-  "fetched_at": "2026-10-27T08:49:06+08:00",
+  "fetched_at": "2026-10-27T23:19:46+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
-    "start": "2026-10-25",
-    "end": "2026-10-26",
+    "start": "2026-10-26",
+    "end": "2026-10-27",
     "first_run": false,
     "note": null
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 14,
-  "answered": 14,
+  "requests": 18,
+  "answered": 18,
   "sources": [
     {
       "name": "Earnings radar, page 1",
-      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-25&enddt=2026-10-26",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27",
       "ok": true,
-      "detail": "HTTP 200, 43 KB in 159 ms"
+      "detail": "HTTP 200, 60 KB in 503 ms"
+    },
+    {
+      "name": "Earnings radar, page 2",
+      "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-10-26&enddt=2026-10-27&from=100",
+      "ok": true,
+      "detail": "HTTP 200, 32 KB in 205 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 217 ms"
+      "detail": "HTTP 200, 148 KB in 89 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 48 ms"
+      "detail": "HTTP 200, 156 KB in 31 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 155 KB in 95 ms"
+      "detail": "HTTP 200, 155 KB in 36 ms"
     },
     {
-      "name": "Bank of Marin Bancorp filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000043/index.json",
+      "name": "SMITHFIELD FOODS INC filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/91388/000009138826000070/index.json",
       "ok": true,
-      "detail": "HTTP 200, 5 KB in 163 ms"
+      "detail": "HTTP 200, 1 KB in 99 ms"
     },
     {
-      "name": "Bank of Marin Bancorp press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1403475/000140347526000043/earningsrelease-ex991q32026.htm",
+      "name": "SMITHFIELD FOODS INC filing index page",
+      "url": "https://www.sec.gov/Archives/edgar/data/91388/000009138826000070/0000091388-26-000070-index.htm",
       "ok": true,
-      "detail": "HTTP 200, 727 KB in 471 ms"
+      "detail": "HTTP 200, 10 KB in 155 ms"
     },
     {
-      "name": "VERIZON COMMUNICATIONS INC filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/index.json",
+      "name": "SMITHFIELD FOODS INC press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/91388/000009138826000070/q32026pressrelease.htm",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 70 ms"
+      "detail": "HTTP 200, 664 KB in 157 ms"
     },
     {
-      "name": "VERIZON COMMUNICATIONS INC press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/732712/000073271226000049/a2026q3exhibit99.htm",
+      "name": "PACCAR INC filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/index.json",
       "ok": true,
-      "detail": "HTTP 200, 871 KB in 83 ms"
+      "detail": "HTTP 200, 1 KB in 71 ms"
+    },
+    {
+      "name": "PACCAR INC press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/pcar-ex99_1.htm",
+      "ok": true,
+      "detail": "HTTP 200, 705 KB in 79 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,090 KB in 96 ms"
+      "detail": "HTTP 200, 3,090 KB in 38 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,373 KB in 189 ms"
+      "detail": "HTTP 200, 4,373 KB in 33 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,736 KB in 78 ms"
+      "detail": "HTTP 200, 2,736 KB in 22 ms"
     },
     {
-      "name": "Bank of Marin Bancorp company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403475.json",
+      "name": "SMITHFIELD FOODS INC company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000091388.json",
       "ok": true,
-      "detail": "HTTP 200, 4,851 KB in 766 ms"
+      "detail": "HTTP 200, 1,560 KB in 324 ms"
     },
     {
-      "name": "VERIZON COMMUNICATIONS INC company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json",
+      "name": "PACCAR INC company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000075362.json",
       "ok": true,
-      "detail": "HTTP 200, 4,248 KB in 955 ms"
+      "detail": "HTTP 200, 3,064 KB in 734 ms"
     },
     {
       "name": "BANCFIRST CORP /OK/ company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000760498.json",
       "ok": true,
-      "detail": "HTTP 200, 4,438 KB in 191 ms"
+      "detail": "HTTP 200, 4,438 KB in 506 ms"
+    },
+    {
+      "name": "Bank of Marin Bancorp company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403475.json",
+      "ok": true,
+      "detail": "HTTP 200, 4,851 KB in 657 ms"
+    },
+    {
+      "name": "VERIZON COMMUNICATIONS INC company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000732712.json",
+      "ok": true,
+      "detail": "HTTP 200, 4,248 KB in 245 ms"
     }
   ],
   "files": [
+    "data.sec.gov_api_xbrl_companyfacts_CIK0000075362.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0000091388.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0000732712.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0000760498.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
@@ -108,9 +134,11 @@
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
     "efts.sec.gov_search-index_from0.json",
-    "www.sec.gov_Archives_edgar_data_1403475_000140347526000043_earningsrelease-ex991q32026.htm",
-    "www.sec.gov_Archives_edgar_data_1403475_000140347526000043_index.json",
-    "www.sec.gov_Archives_edgar_data_732712_000073271226000049_a2026q3exhibit99.htm",
-    "www.sec.gov_Archives_edgar_data_732712_000073271226000049_index.json"
+    "efts.sec.gov_search-index_from100.json",
+    "www.sec.gov_Archives_edgar_data_75362_000119312526432729_index.json",
+    "www.sec.gov_Archives_edgar_data_75362_000119312526432729_pcar-ex99_1.htm",
+    "www.sec.gov_Archives_edgar_data_91388_000009138826000070_0000091388-26-000070-index.htm",
+    "www.sec.gov_Archives_edgar_data_91388_000009138826000070_index.json",
+    "www.sec.gov_Archives_edgar_data_91388_000009138826000070_q32026pressrelease.htm"
   ]
 }
