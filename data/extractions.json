@@ -524,5 +524,248 @@
     "press_release_url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/pcar-ex99_1.htm",
     "filing_url": "https://www.sec.gov/Archives/edgar/data/75362/000119312526432729/0001193125-26-432729-index.htm",
     "saved_at": "2026-10-27T23:21:21+08:00"
+  },
+  {
+    "cik": "1652044",
+    "company": "Alphabet",
+    "accession": "0001652044-26-000080",
+    "release_date": "2026-10-28",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 127577,
+        "unit": "USD millions",
+        "quote": "Revenues | $ | 102,346 | $ | 127,577"
+      },
+      "operating_income": {
+        "value": 40576,
+        "unit": "USD millions",
+        "quote": "Income from operations | 31,228 | 40,576"
+      },
+      "net_income": {
+        "value": 26468,
+        "unit": "USD millions",
+        "quote": "Net income | 34,979 | 26,468"
+      },
+      "diluted_eps": {
+        "value": 2.12,
+        "unit": "USD per share",
+        "quote": "Diluted net income per common share | $ | 2.87 | $ | 2.12"
+      }
+    },
+    "guidance": null,
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Alphabet revenues grew 25% year over year.",
+        "quote": "Alphabet revenues growing 25% year-over year."
+      },
+      {
+        "id": "M2",
+        "topic": "revenue",
+        "claim": "Google Cloud revenues grew 103%, driven by demand for AI infrastructure and solutions.",
+        "quote": "Google Cloud revenues grew 103%, powered by huge demand for our AI infrastructure and AI solutions."
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "Consolidated operating income rose 30% with an operating margin of 31.8%.",
+        "quote": "Consolidated Alphabet operating income increased 30% and operating margin was 31.8%."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls it a strong quarter and points to momentum across the business."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1652044-0001652044-26-000080.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/0001652044-26-000080-index.htm",
+    "saved_at": "2026-11-04T06:08:42+08:00"
+  },
+  {
+    "cik": "1018724",
+    "company": "Amazon",
+    "accession": "0001018724-26-000038",
+    "release_date": "2026-10-29",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 201944,
+        "unit": "USD millions",
+        "quote": "Total net sales | 180,169 | 201,944"
+      },
+      "operating_income": {
+        "value": 28076,
+        "unit": "USD millions",
+        "quote": "Operating income | 17,422 | 28,076"
+      },
+      "net_income": {
+        "value": 20685,
+        "unit": "USD millions",
+        "quote": "Net income | $ | 21,187 | $ | 20,685"
+      },
+      "diluted_eps": {
+        "value": 1.89,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per share | $ | 1.95 | $ | 1.89"
+      }
+    },
+    "guidance": {
+      "text": "Amazon expects fourth quarter 2026 net sales of $240.0 billion to $247.0 billion, growth of 12% to 16%.",
+      "quote": "Net sales are expected to be between $240.0 billion and $247.0 billion, or to grow between 12% and 16% compared with fourth quarter 2025."
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Net sales rose 12% to $201.9 billion.",
+        "quote": "Net sales increased 12% to $201.9 billion in the third quarter, compared with $180.2 billion in third quarter 2025."
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "Operating margin was 13.9%, which Amazon says is its highest ever.",
+        "quote": "Operating income was $28.1 billion and operating margin was 13.9%—Amazon’s highest operating margin ever"
+      },
+      {
+        "id": "M3",
+        "topic": "profit",
+        "claim": "Net income fell to $20.7 billion, mainly because of 2025 investment gains.",
+        "quote": "Net income decreased to $20.7 billion in the third quarter, or $1.89 per diluted share, compared with $21.2 billion, or $1.95 per diluted share, in third quarter 2025."
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO says the AWS investment is working and reports record operating margin."
+    },
+    "picked_from_radar": false,
+    "source_file": "sources/1018724-0001018724-26-000038.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/0001018724-26-000038-index.htm",
+    "saved_at": "2026-11-04T06:08:42+08:00"
+  },
+  {
+    "cik": "107263",
+    "company": "WILLIAMS COMPANIES, INC.",
+    "accession": "0000107263-26-000035",
+    "release_date": "2026-11-02",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 3223,
+        "unit": "USD millions",
+        "quote": "Total revenues | 3,223 | 2,923"
+      },
+      "operating_income": {
+        "value": 1136,
+        "unit": "USD millions",
+        "quote": "Operating income (loss) | 1,136 | 1,109"
+      },
+      "net_income": {
+        "value": 700,
+        "unit": "USD millions",
+        "quote": "Net income (loss) attributable to The Williams Companies, Inc. | 700 | 647"
+      },
+      "diluted_eps": {
+        "value": 0.56,
+        "unit": "USD per share",
+        "quote": "Net income (loss) available to common stockholders | $ | .56 | $ | .53 | $ | 1.94 | $ | 1.54"
+      }
+    },
+    "guidance": {
+      "text": "Williams is tracking toward the upper half of its 2026 Adjusted EBITDA guidance range of $8.3 billion to $8.5 billion.",
+      "quote": "Tracking toward the upper half of 2026 Adjusted EBITDA guidance range of $8.3 billion to $8.5 billion"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "profit",
+        "claim": "GAAP net income was $699 million, up 8% on the third quarter of 2025.",
+        "quote": "GAAP net income: $699 million, or $0.56 per diluted share (EPS), up 8% and 6%, respectively, vs. 3Q 2025"
+      },
+      {
+        "id": "M2",
+        "topic": "outlook",
+        "claim": "The CEO says the company is on track for the upper half of its 2026 guidance range.",
+        "quote": "keeping us on track toward the upper half of our 2026 guidance range"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO calls it another strong quarter and expresses strong confidence in long-term growth."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/107263-0000107263-26-000035.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000035/wmb_20260930xer.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/107263/000010726326000035/0000107263-26-000035-index.htm",
+    "saved_at": "2026-11-04T06:08:42+08:00"
+  },
+  {
+    "cik": "832101",
+    "company": "IDEX CORP /DE/",
+    "accession": "0000832101-26-000026",
+    "release_date": "2026-10-28",
+    "period_end": "2026-09-30",
+    "period_label": "quarter ended 30 September 2026",
+    "figures": {
+      "revenue": {
+        "value": 951.7,
+        "unit": "USD millions",
+        "quote": "Net sales | $ | 951.7 | $ | 878.7 | $ | 2,759.2 | $ | 2,558.4"
+      },
+      "operating_income": {
+        "value": 208.0,
+        "unit": "USD millions",
+        "quote": "Operating income | 208.0 | 185.8"
+      },
+      "net_income": {
+        "value": 144.1,
+        "unit": "USD millions",
+        "quote": "Net income attributable to IDEX | $ | 144.1 | $ | 127.8"
+      },
+      "diluted_eps": {
+        "value": 1.95,
+        "unit": "USD per share",
+        "quote": "Diluted earnings per common share attributable to IDEX | $ | 1.95 | $ | 1.70"
+      }
+    },
+    "guidance": {
+      "text": "IDEX projects full year organic sales growth of 6.5% to 6.8%, raised from 5% to 6%.",
+      "quote": "Full year organic sales projected to increase 6.5% to 6.8% over the prior year, up from previous guidance of 5% to 6%"
+    },
+    "management": [
+      {
+        "id": "M1",
+        "topic": "revenue",
+        "claim": "Sales were a record $952 million, up 8% on a reported and organic basis.",
+        "quote": "Record sales of $952 million increased 8% on both a reported and organic basis"
+      },
+      {
+        "id": "M2",
+        "topic": "margins",
+        "claim": "The CEO says margins expanded despite continued inflation.",
+        "quote": "Our ability to drive margin expansion during a period of continued inflation demonstrates the strength of our team and the power of 8020."
+      },
+      {
+        "id": "M3",
+        "topic": "outlook",
+        "claim": "Management is raising full-year guidance on strong year-to-date performance.",
+        "quote": "We are again increasing our full-year financial guidance due to our strong performance year-to-date"
+      }
+    ],
+    "tone": {
+      "label": "positive",
+      "reason": "The CEO reports record sales, expanding margins and a raised full-year outlook."
+    },
+    "picked_from_radar": true,
+    "source_file": "sources/832101-0000832101-26-000026.txt",
+    "press_release_url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000026/iex-20260930xex991.htm",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000026/0000832101-26-000026-index.htm",
+    "saved_at": "2026-11-04T06:08:42+08:00"
   }
 ]
