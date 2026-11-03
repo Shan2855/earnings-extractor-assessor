@@ -2112,5 +2112,171 @@
       }
     ],
     "offline": false
+  },
+  {
+    "run_at": "2026-11-04T06:38:08+08:00",
+    "agent": "assessor",
+    "brief": "briefs/2026-11-04-assess.md",
+    "brief_checked": true,
+    "sources": {
+      "ok": 8,
+      "total": 8,
+      "failures": []
+    },
+    "counts": {
+      "to_assess": 8,
+      "checked": 8,
+      "rechecks": 4,
+      "confirmed": 19,
+      "mismatch": 0,
+      "cannot_check": 13
+    },
+    "companies": [
+      {
+        "cik": "760498",
+        "company": "BANCFIRST CORP /OK/",
+        "accession": "0001193125-26-427999",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 1,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 4
+        }
+      },
+      {
+        "cik": "1403475",
+        "company": "Bank of Marin Bancorp",
+        "accession": "0001403475-26-000043",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": true,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 4
+        }
+      },
+      {
+        "cik": "732712",
+        "company": "VERIZON COMMUNICATIONS INC",
+        "accession": "0000732712-26-000049",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": true,
+        "confirmed": 4,
+        "mismatch": 0,
+        "cannot_check": 0,
+        "claims_match": 2,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "75362",
+        "company": "PACCAR INC",
+        "accession": "0001193125-26-432729",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": true,
+        "confirmed": 3,
+        "mismatch": 0,
+        "cannot_check": 1,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "1652044",
+        "company": "Alphabet",
+        "accession": "0001652044-26-000080",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": false,
+        "confirmed": 4,
+        "mismatch": 0,
+        "cannot_check": 0,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "1018724",
+        "company": "Amazon",
+        "accession": "0001018724-26-000038",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": false,
+        "confirmed": 4,
+        "mismatch": 0,
+        "cannot_check": 0,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      },
+      {
+        "cik": "107263",
+        "company": "WILLIAMS COMPANIES, INC.",
+        "accession": "0000107263-26-000035",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": false,
+        "confirmed": 0,
+        "mismatch": 0,
+        "cannot_check": 4,
+        "claims_match": 1,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 4,
+          "S2": 5,
+          "S3": 4
+        }
+      },
+      {
+        "cik": "832101",
+        "company": "IDEX CORP /DE/",
+        "accession": "0000832101-26-000026",
+        "period_label": "quarter ended 30 September 2026",
+        "recheck": false,
+        "confirmed": 4,
+        "mismatch": 0,
+        "cannot_check": 0,
+        "claims_match": 3,
+        "claims_mismatch": 0,
+        "ratings": {
+          "S1": 5,
+          "S2": 5,
+          "S3": 5
+        }
+      }
+    ],
+    "headline": "Checked 8 extractions: 19 figures confirmed, 0 mismatches, 13 cannot check.",
+    "radar_check": {
+      "watch_run_at": "2026-11-04T06:08:42+08:00",
+      "watch_brief": "briefs/2026-11-04-watch.md",
+      "brief_says": 780,
+      "saved_for_run": 780,
+      "match": true
+    },
+    "offline": false
   }
 ]
