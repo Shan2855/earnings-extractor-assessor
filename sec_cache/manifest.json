@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-05T09:26:43+08:00",
+  "fetched_at": "2026-11-05T09:47:58+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
@@ -9,163 +9,157 @@
     "note": null
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 24,
-  "answered": 24,
+  "requests": 23,
+  "answered": 23,
   "sources": [
     {
       "name": "Earnings radar, page 1",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04",
       "ok": true,
-      "detail": "HTTP 200, 61 KB in 142 ms"
+      "detail": "HTTP 200, 61 KB in 208 ms"
     },
     {
       "name": "Earnings radar, page 2",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=100",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 133 ms"
+      "detail": "HTTP 200, 60 KB in 196 ms"
     },
     {
       "name": "Earnings radar, page 3",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=200",
       "ok": true,
-      "detail": "HTTP 200, 59 KB in 81 ms"
+      "detail": "HTTP 200, 59 KB in 222 ms"
     },
     {
       "name": "Earnings radar, page 4",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=300",
       "ok": true,
-      "detail": "HTTP 200, 59 KB in 56 ms"
+      "detail": "HTTP 200, 59 KB in 282 ms"
     },
     {
       "name": "Earnings radar, page 5",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=400",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 45 ms"
+      "detail": "HTTP 200, 60 KB in 409 ms"
     },
     {
       "name": "Earnings radar, page 6",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=500",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 97 ms"
+      "detail": "HTTP 200, 60 KB in 409 ms"
     },
     {
       "name": "Earnings radar, page 7",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=600",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 66 ms"
+      "detail": "HTTP 200, 60 KB in 327 ms"
     },
     {
       "name": "Earnings radar, page 8",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-02&enddt=2026-11-04&from=700",
       "ok": true,
-      "detail": "HTTP 200, 40 KB in 47 ms"
+      "detail": "HTTP 200, 40 KB in 239 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 47 ms"
+      "detail": "HTTP 200, 148 KB in 34 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 16 ms"
+      "detail": "HTTP 200, 156 KB in 17 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 154 KB in 57 ms"
+      "detail": "HTTP 200, 154 KB in 17 ms"
     },
     {
-      "name": "TALOS ENERGY INC. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1724965/000119312526445597/index.json",
+      "name": "ALBEMARLE CORP filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000128/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 367 ms"
+      "detail": "HTTP 200, 1 KB in 123 ms"
     },
     {
-      "name": "TALOS ENERGY INC. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1724965/000119312526445597/talo-ex99_1.htm",
+      "name": "ALBEMARLE CORP press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/915913/000091591326000128/a3q26earningsreleaseex991.htm",
       "ok": true,
-      "detail": "HTTP 200, 1,018 KB in 189 ms"
+      "detail": "HTTP 200, 481 KB in 128 ms"
     },
     {
-      "name": "Light & Wonder, Inc. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/750004/000075000426000045/index.json",
+      "name": "XMax Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/1473334/000149315226049815/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 107 ms"
+      "detail": "HTTP 200, 1 KB in 94 ms"
     },
     {
-      "name": "Light & Wonder, Inc. filing index page",
-      "url": "https://www.sec.gov/Archives/edgar/data/750004/000075000426000045/0000750004-26-000045-index.htm",
+      "name": "XMax Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/1473334/000149315226049815/ex99-1.htm",
       "ok": true,
-      "detail": "HTTP 200, 10 KB in 210 ms"
-    },
-    {
-      "name": "Light & Wonder, Inc. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/750004/000075000426000045/lnw09302026erandtables.htm",
-      "ok": true,
-      "detail": "HTTP 200, 604 KB in 182 ms"
+      "detail": "HTTP 200, 20 KB in 101 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,174 KB in 63 ms"
+      "detail": "HTTP 200, 3,174 KB in 40 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,447 KB in 18 ms"
+      "detail": "HTTP 200, 4,447 KB in 22 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,743 KB in 88 ms"
+      "detail": "HTTP 200, 2,743 KB in 22 ms"
     },
     {
-      "name": "TALOS ENERGY INC. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001724965.json",
+      "name": "ALBEMARLE CORP company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000915913.json",
       "ok": true,
-      "detail": "HTTP 200, 1,993 KB in 114 ms"
+      "detail": "HTTP 200, 4,611 KB in 37 ms"
     },
     {
-      "name": "Light & Wonder, Inc. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000750004.json",
+      "name": "XMax Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001473334.json",
       "ok": true,
-      "detail": "HTTP 200, 3,885 KB in 382 ms"
+      "detail": "HTTP 200, 2,833 KB in 331 ms"
     },
     {
       "name": "BANCFIRST CORP /OK/ company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000760498.json",
       "ok": true,
-      "detail": "HTTP 200, 4,438 KB in 603 ms"
+      "detail": "HTTP 200, 4,438 KB in 647 ms"
     },
     {
       "name": "Bank of Marin Bancorp company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001403475.json",
       "ok": true,
-      "detail": "HTTP 200, 4,851 KB in 416 ms"
+      "detail": "HTTP 200, 4,851 KB in 430 ms"
     },
     {
       "name": "WILLIAMS COMPANIES, INC. company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000107263.json",
       "ok": true,
-      "detail": "HTTP 200, 4,779 KB in 547 ms"
+      "detail": "HTTP 200, 4,779 KB in 26 ms"
     }
   ],
   "files": [
     "data.sec.gov_api_xbrl_companyfacts_CIK0000107263.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0000750004.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0000760498.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0000915913.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001403475.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0001473334.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0001724965.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
@@ -177,10 +171,9 @@
     "efts.sec.gov_search-index_from500.json",
     "efts.sec.gov_search-index_from600.json",
     "efts.sec.gov_search-index_from700.json",
-    "www.sec.gov_Archives_edgar_data_1724965_000119312526445597_index.json",
-    "www.sec.gov_Archives_edgar_data_1724965_000119312526445597_talo-ex99_1.htm",
-    "www.sec.gov_Archives_edgar_data_750004_000075000426000045_0000750004-26-000045-index.htm",
-    "www.sec.gov_Archives_edgar_data_750004_000075000426000045_index.json",
-    "www.sec.gov_Archives_edgar_data_750004_000075000426000045_lnw09302026erandtables.htm"
+    "www.sec.gov_Archives_edgar_data_1473334_000149315226049815_ex99-1.htm",
+    "www.sec.gov_Archives_edgar_data_1473334_000149315226049815_index.json",
+    "www.sec.gov_Archives_edgar_data_915913_000091591326000128_a3q26earningsreleaseex991.htm",
+    "www.sec.gov_Archives_edgar_data_915913_000091591326000128_index.json"
   ]
 }
