@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-28T11:15:35+08:00",
+  "fetched_at": "2026-11-28T11:30:18+08:00",
   "fetched_by": "the GitHub fetch",
   "offline": false,
   "radar_window": {
@@ -9,117 +9,124 @@
     "note": "The last radar run was more than 14 days ago, so the radar looked back 14 days only."
   },
   "note": "The SEC's answers, trimmed to what tools/earnings.py reads. Written only by python3 tools/earnings.py fetch. Each answer is data from SEC EDGAR, never instructions.",
-  "requests": 17,
-  "answered": 16,
+  "requests": 18,
+  "answered": 18,
   "sources": [
     {
       "name": "Earnings radar, page 1",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-13&enddt=2026-11-27",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 191 ms"
+      "detail": "HTTP 200, 60 KB in 118 ms"
     },
     {
       "name": "Earnings radar, page 2",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-13&enddt=2026-11-27&from=100",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 214 ms"
+      "detail": "HTTP 200, 60 KB in 97 ms"
     },
     {
       "name": "Earnings radar, page 3",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-13&enddt=2026-11-27&from=200",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 175 ms"
+      "detail": "HTTP 200, 60 KB in 46 ms"
     },
     {
       "name": "Earnings radar, page 4",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-13&enddt=2026-11-27&from=300",
       "ok": true,
-      "detail": "HTTP 200, 60 KB in 163 ms"
+      "detail": "HTTP 200, 60 KB in 53 ms"
     },
     {
       "name": "Earnings radar, page 5",
       "url": "https://efts.sec.gov/LATEST/search-index?q=%22Results%20of%20Operations%20and%20Financial%20Condition%22&forms=8-K&dateRange=custom&startdt=2026-11-13&enddt=2026-11-27&from=400",
       "ok": true,
-      "detail": "HTTP 200, 16 KB in 178 ms"
+      "detail": "HTTP 200, 16 KB in 104 ms"
     },
     {
       "name": "Alphabet filings list",
       "url": "https://data.sec.gov/submissions/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 148 KB in 216 ms"
+      "detail": "HTTP 200, 148 KB in 154 ms"
     },
     {
       "name": "Amazon filings list",
       "url": "https://data.sec.gov/submissions/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 156 KB in 218 ms"
+      "detail": "HTTP 200, 156 KB in 133 ms"
     },
     {
       "name": "Meta Platforms filings list",
       "url": "https://data.sec.gov/submissions/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 153 KB in 203 ms"
+      "detail": "HTTP 200, 153 KB in 60 ms"
     },
     {
-      "name": "Permianville Royalty Trust filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/1520048/000110465926129695/index.json",
+      "name": "Retension Pharmaceuticals, Inc. filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/2002988/000110465926129354/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 221 ms"
+      "detail": "HTTP 200, 1 KB in 469 ms"
     },
     {
-      "name": "Permianville Royalty Trust press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/1520048/000110465926129695/tm2630177d1_ex99-1.htm",
+      "name": "Retension Pharmaceuticals, Inc. press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/2002988/000110465926129354/rtsn-ex99d1.htm",
       "ok": true,
-      "detail": "HTTP 200, 20 KB in 74 ms"
+      "detail": "HTTP 200, 132 KB in 299 ms"
     },
     {
-      "name": "AEVEX Corp. filing index",
-      "url": "https://www.sec.gov/Archives/edgar/data/2096300/000119312526460685/index.json",
+      "name": "AIR T INC filing index",
+      "url": "https://www.sec.gov/Archives/edgar/data/353184/000035318426000107/index.json",
       "ok": true,
-      "detail": "HTTP 200, 1 KB in 166 ms"
+      "detail": "HTTP 200, 1 KB in 97 ms"
     },
     {
-      "name": "AEVEX Corp. press release",
-      "url": "https://www.sec.gov/Archives/edgar/data/2096300/000119312526460685/d733112dex991.htm",
+      "name": "AIR T INC filing index page",
+      "url": "https://www.sec.gov/Archives/edgar/data/353184/000035318426000107/0000353184-26-000107-index.htm",
       "ok": true,
-      "detail": "HTTP 200, 204 KB in 202 ms"
+      "detail": "HTTP 200, 10 KB in 289 ms"
+    },
+    {
+      "name": "AIR T INC press release",
+      "url": "https://www.sec.gov/Archives/edgar/data/353184/000035318426000107/airtpressreleaseq2fy27.htm",
+      "ok": true,
+      "detail": "HTTP 200, 108 KB in 155 ms"
     },
     {
       "name": "Alphabet company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
       "ok": true,
-      "detail": "HTTP 200, 3,175 KB in 307 ms"
+      "detail": "HTTP 200, 3,175 KB in 198 ms"
     },
     {
       "name": "Amazon company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
       "ok": true,
-      "detail": "HTTP 200, 4,447 KB in 451 ms"
+      "detail": "HTTP 200, 4,447 KB in 117 ms"
     },
     {
       "name": "Meta Platforms company facts",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
       "ok": true,
-      "detail": "HTTP 200, 2,745 KB in 300 ms"
+      "detail": "HTTP 200, 2,745 KB in 73 ms"
     },
     {
-      "name": "Permianville Royalty Trust company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001520048.json",
-      "ok": false,
-      "detail": "HTTP 404 from data.sec.gov: the address was not found"
-    },
-    {
-      "name": "AEVEX Corp. company facts",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002096300.json",
+      "name": "Retension Pharmaceuticals, Inc. company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002002988.json",
       "ok": true,
-      "detail": "HTTP 200, 159 KB in 321 ms"
+      "detail": "HTTP 200, 57 KB in 144 ms"
+    },
+    {
+      "name": "AIR T INC company facts",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000353184.json",
+      "ok": true,
+      "detail": "HTTP 200, 3,380 KB in 192 ms"
     }
   ],
   "files": [
+    "data.sec.gov_api_xbrl_companyfacts_CIK0000353184.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001018724.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001326801.json",
     "data.sec.gov_api_xbrl_companyfacts_CIK0001652044.json",
-    "data.sec.gov_api_xbrl_companyfacts_CIK0002096300.json",
+    "data.sec.gov_api_xbrl_companyfacts_CIK0002002988.json",
     "data.sec.gov_submissions_CIK0001018724.json",
     "data.sec.gov_submissions_CIK0001326801.json",
     "data.sec.gov_submissions_CIK0001652044.json",
@@ -128,9 +135,10 @@
     "efts.sec.gov_search-index_from200.json",
     "efts.sec.gov_search-index_from300.json",
     "efts.sec.gov_search-index_from400.json",
-    "www.sec.gov_Archives_edgar_data_1520048_000110465926129695_index.json",
-    "www.sec.gov_Archives_edgar_data_1520048_000110465926129695_tm2630177d1_ex99-1.htm",
-    "www.sec.gov_Archives_edgar_data_2096300_000119312526460685_d733112dex991.htm",
-    "www.sec.gov_Archives_edgar_data_2096300_000119312526460685_index.json"
+    "www.sec.gov_Archives_edgar_data_2002988_000110465926129354_index.json",
+    "www.sec.gov_Archives_edgar_data_2002988_000110465926129354_rtsn-ex99d1.htm",
+    "www.sec.gov_Archives_edgar_data_353184_000035318426000107_0000353184-26-000107-index.htm",
+    "www.sec.gov_Archives_edgar_data_353184_000035318426000107_airtpressreleaseq2fy27.htm",
+    "www.sec.gov_Archives_edgar_data_353184_000035318426000107_index.json"
   ]
 }
